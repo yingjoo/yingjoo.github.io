@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bundler": "^0.8.0",
+    "jekyll": "^3.0.0-beta1",
+    "npm-bundle": "^3.0.3"
+  }
+}
