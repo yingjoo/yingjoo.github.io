@@ -2,7 +2,11 @@
 
 source "https://rubygems.org"
 
-gemspec
+gem "jekyll", "~> 4.3"
+gem "jekyll-theme-chirpy"
+
+# Use the github-pages gem to get the exact gems and versions that GitHub Pages uses
+# gem "github-pages", group: :jekyll_plugins
 
 group :test do
   gem "html-proofer", "~> 4.4"
